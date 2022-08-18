@@ -20,3 +20,23 @@ body .nav-link{
 body .navbar-toggler{
     margin-left: 4.7rem;
 }
+
+body .name{
+    font-size: 6.4rem;
+    letter-spacing: 1.5rem;
+    line-height:9rem;
+    font-family: "Ubuntu Condensed", sans-serif;
+    text-align: center;
+    padding-top: 6rem;
+}
+
+ body #about{
+    background: var(--background);
+    height: 90vh;
+ }
+
+ #about .text-about{
+    width: 60rem;
+    height: 23rem;
+    
+ }
