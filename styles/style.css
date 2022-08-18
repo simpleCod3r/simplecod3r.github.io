@@ -36,7 +36,14 @@ body .name{
  }
 
  #about .text-about{
+    text-align: justify;
     width: 60rem;
     height: 23rem;
     
+ }
+
+ .content-wrapper{
+    display: flex;
+    align-items: center;
+    justify-content:center;
  }
