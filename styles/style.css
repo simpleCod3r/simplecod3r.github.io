@@ -27,23 +27,42 @@ body .name{
     line-height:9rem;
     font-family: "Ubuntu Condensed", sans-serif;
     text-align: center;
-    padding-top: 6rem;
+    padding-top: 2rem;
 }
 
  body #about{
     background: var(--background);
-    height: 90vh;
- }
-
- #about .text-about{
-    text-align: justify;
-    width: 60rem;
-    height: 23rem;
-    
+    height: 97vh;
+    padding-top: 40px;
  }
 
  .content-wrapper{
     display: flex;
     align-items: center;
     justify-content:center;
+    padding-top: 10vh;
+ }
+
+ #about .text-about{
+    text-align: justify;
+    width: 80vh;
+    height: 28.5vh;
+ }
+
+ #about .stacks{
+    margin-top: 7rem;
+ }
+
+.content-wrapper img{
+    height: 36vh;
+    margin-left: 15vh;
+} 
+
+body #exp{
+    height: 97vh;
+    background: black;
+ }
+
+body .experiences{
+    color: white;
  }
