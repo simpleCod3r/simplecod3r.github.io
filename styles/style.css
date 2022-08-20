@@ -43,6 +43,11 @@ body .name{
     padding-top: 10vh;
  }
 
+ .content-wrapper > img{
+    height: 36vh;
+    margin-left: 15vh;
+} 
+
  #about .text-about{
     text-align: justify;
     width: 80vh;
@@ -53,10 +58,10 @@ body .name{
     margin-top: 7rem;
  }
 
-.content-wrapper img{
-    height: 36vh;
-    margin-left: 15vh;
-} 
+ #about .stacks > img{
+    width: 4.5rem;
+    margin-right: 3.5rem;
+ }
 
 body #exp{
     height: 97vh;
