@@ -2,3 +2,67 @@ html {
     font-size:10px;
     font-family: "Ubuntu", sans-serif;
 }
+
+body .navbar{
+    padding: 0.8rem;
+}
+
+body .navbar-nav{
+    margin-left: 4.7rem;
+}
+
+body .nav-link{
+    font-size: 1.5rem;
+    font-family: "Roboto Condensed", sans-serif;
+    font-weight: 400;
+}
+
+body .navbar-toggler{
+    margin-left: 4.7rem;
+}
+
+body .name{
+    font-size: 6.4rem;
+    letter-spacing: 1.5rem;
+    line-height:9rem;
+    font-family: "Ubuntu Condensed", sans-serif;
+    text-align: center;
+    padding-top: 2rem;
+}
+
+ body #about{
+    background: var(--background);
+    height: 97vh;
+    padding-top: 40px;
+ }
+
+ .content-wrapper{
+    display: flex;
+    align-items: center;
+    justify-content:center;
+    padding-top: 10vh;
+ }
+
+ #about .text-about{
+    text-align: justify;
+    width: 80vh;
+    height: 28.5vh;
+ }
+
+ #about .stacks{
+    margin-top: 7rem;
+ }
+
+.content-wrapper img{
+    height: 36vh;
+    margin-left: 15vh;
+} 
+
+body #exp{
+    height: 97vh;
+    background: black;
+ }
+
+body .experiences{
+    color: white;
+ }
