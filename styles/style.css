@@ -22,9 +22,9 @@ body .navbar-toggler{
 }
 
 body .name{
-    font-size: 6.4rem;
+    font-size: clamp(1.5rem, 8vh, 6.4rem);
     letter-spacing: 1.5rem;
-    line-height:9rem;
+    line-height: clamp(5rem, 15%,  9rem);
     font-family: "Ubuntu Condensed", sans-serif;
     text-align: center;
     padding-top: 2rem;
@@ -40,28 +40,49 @@ body .name{
     display: flex;
     align-items: center;
     justify-content:center;
-    padding-top: 10vh;
+    padding-top: 5vh;
  }
 
  .content-wrapper > img{
-    height: 36vh;
-    margin-left: 15vh;
+    width: clamp(18rem, 18%, 250px);
+    margin-left: 2vw;
+    margin-right: 2vw;
 } 
 
- #about .text-about{
+#about .text-about{
+    font-size: clamp(1.2rem, 70%, 2rem);
     text-align: justify;
-    width: 80vh;
+    width: 70vw;
     height: 28.5vh;
+    margin-right: 2vw;
  }
 
- #about .stacks{
-    margin-top: 7rem;
- }
+#about .stacks{
+    margin-top: 4vh;
+}
 
- #about .stacks > img{
-    width: 4.5rem;
-    margin-right: 3.5rem;
- }
+#about .stacks > img{
+    width: clamp(3.5rem, 5%, 100px);
+    margin-right: 3rem;
+}
+
+ @media only screen and (max-width: 700px)
+ {
+    .content-wrapper{
+        display: grid;
+        /* align-items: center; */
+        justify-content: center;
+        padding-top: 2vh;
+    }
+    
+    .content-wrapper > img{
+        margin: auto;
+    }
+    #about .text-about{
+        padding-top: 1vh;
+        margin: auto;
+    }
+}
 
 body #exp{
     height: 97vh;
