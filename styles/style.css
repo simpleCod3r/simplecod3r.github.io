@@ -1,8 +1,3 @@
-html {
-    font-size:10px;
-    font-family: "Ubuntu", sans-serif;
-}
-
 body .navbar{
     padding: 0.8rem;
 }
@@ -21,40 +16,38 @@ body .navbar-toggler{
     margin-left: 4.7rem;
 }
 
+body #about{
+    background: var(--background);
+    padding-top: 40px;
+    height: 100vh;
+    align-content: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+ }
+
 body .name{
-    font-size: clamp(1.5rem, 8vh, 6.4rem);
+    font-size: clamp(2.75em, 2em + 4vw, 5em);
     letter-spacing: 1.5rem;
-    line-height: clamp(5rem, 15%,  9rem);
     font-family: "Ubuntu Condensed", sans-serif;
     text-align: center;
-    padding-top: 2rem;
 }
-
- body #about{
-    background: var(--background);
-    height: 97vh;
-    padding-top: 40px;
- }
 
  .content-wrapper{
     display: flex;
     align-items: center;
     justify-content:center;
-    padding-top: 5vh;
  }
 
  .content-wrapper > img{
     width: clamp(18rem, 18%, 250px);
-    margin-left: 2vw;
-    margin-right: 2vw;
+    margin-right: 5rem;
 } 
 
 #about .text-about{
-    font-size: clamp(1.2rem, 70%, 2rem);
+    font-size: clamp(0.7em, 0.7em + 0.9vw, 1.25em);
     text-align: justify;
-    width: 70vw;
-    height: 28.5vh;
-    margin-right: 2vw;
+    width: 75vh;
  }
 
 #about .stacks{
@@ -79,16 +72,12 @@ body .name{
         margin: auto;
     }
     #about .text-about{
+        width: 90vw;
         padding-top: 1vh;
         margin: auto;
+        /* height: 100%; */
+    }
+    #about .stacks{
+        margin-top: 2vh;
     }
 }
-
-body #exp{
-    height: 97vh;
-    background: black;
- }
-
-body .experiences{
-    color: white;
- }

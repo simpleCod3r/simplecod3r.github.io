@@ -9,7 +9,21 @@
 html{
     --background: #ECECEC;
     font-size: 62.5%;
+    font-family: "Ubuntu", sans-serif;
 }
+
+@media only screen and (max-width: 600px) /* PHONES */
+{}
+
+@media only screen and (max-width: 768px) /* TABLETS */
+{}
+
+@media only screen and (max-width: 992px) /* LAPTOPS */
+{}
+
+@media only screen and (max-width: 1200px) /* LARGE */
+{}
+
 
 body{
     display: flex;
