@@ -19,7 +19,7 @@ body .navbar-toggler{
 body #about{
     background: var(--background);
     padding-top: 40px;
-    height: 100vh;
+    min-height: 100vh;
     align-content: center;
     display: flex;
     flex-direction: column;
@@ -88,7 +88,7 @@ body .name, .exp{
 body #experience
 {
     background: var(--grey);
-    height: 100vh;
+    min-height: 100vh;
     display: flex;
     flex-direction:row;
     justify-content: space-around;
@@ -167,7 +167,7 @@ body .card0:hover h3, .card:focus-within h3 {
 
 body #contact{
     background: var(--background);
-    height: 100vh;
+    min-height: 100vh;
     display: flex;
     flex-direction: column;
     align-items:center;
