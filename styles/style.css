@@ -110,8 +110,8 @@ body .exp
 }
 
 body .card0 {
-    width: clamp(168px,17vw,18vw);
-    height:clamp(168px,30vw,37vw);
+    width: clamp(23rem,17vw,18vw);
+    height:clamp(168px,28vw,35vw);
     padding: 0;
     box-shadow: 0 2px 4px 0 rgba(0,0,0,0.1);
     border-radius: 8px;
